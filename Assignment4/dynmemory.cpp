@@ -33,5 +33,12 @@ int main(){
     (*(objarr+1)).initialize(21, 22.11f);
     (*objarr).show();
     (*(objarr+1)).show();
+    delete a;
+    delete b;
+    delete arr;
+    delete f_arr;
+    delete obj;
+    delete objarr;
     return 0;
+
 }
